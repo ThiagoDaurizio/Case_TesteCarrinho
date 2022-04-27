@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Teste Carrinho - Codeby
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Desenvolvido por:
+- [Thiago Daurizio](https://www.linkedin.com/in/thiago-daurizio-616b54226/)
 
-## Available Scripts
+## Objetivos
 
-In the project directory, you can run:
+- Desenvolver um “Carrinho de compras” usando uma API.
+- Listar os produtos, exibir o total da compra e exibir uma mensagem informando se o pedido possui frete grátis.
 
-### `npm start`
+### `Link do Teste`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+http://teste-carrinho.thiago-daurizio.surge.sh/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `Requisitos mínimos`
 
-### `npm test`
+- Listar os produtos provenientes da API.
+- Os produtos devem ter imagem, nome e preço.
+- Exibir ao fim da lista o valor total de todos os produtos.
+- Exibir o texto de frete grátis dependendo do valor do carrinho.
+- O texto de frete grátis deverá aparecer apenas se o valor for acima de R$ **10,00**.
+- Seguir o layout.
+- Usar Flex-Box CSS.
+- Você poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
+- Enviar o link do teste no github.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Funcionalidades e Execuções`
+- Botões da parte superior para funcionalidades
+- Alternancia de Temas para: Dark ou Light.
+- Alternância entre as duas formas de carrinho que o teste oferece: Frete Grátis e Com Frete.
+- Link para este repositório ao qual o este Teste do Carrinho pertence.
+- Link de quem fez tal teste.
 
-### `npm run build`
+### `Tecnologias utilizadas`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ReactJS
+- JSX
+- Json
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JavaScript
+- HTML
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Styled-Components (estilização e ThemeProvider)
+- React Hook (useState, useEffect)
 
-### `npm run eject`
+### `Imagens do Projeto`
+- Versão para Desktop seguindo o layout passado no teste.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://user-images.githubusercontent.com/91217217/165458391-6a9ceedf-9902-46d0-903d-c213a297eccf.png)
+![image](https://user-images.githubusercontent.com/91217217/165458436-bc4b3269-56c0-4cb0-8b3a-a604b8600075.png)
+![image](https://user-images.githubusercontent.com/91217217/165458475-dfe69de3-9a9e-4001-921d-559410d94ffc.png)
+![image](https://user-images.githubusercontent.com/91217217/165458583-f8373fc3-73f9-4e11-8dde-db32a83bcfbc.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Versão para Mobile com responsividade.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/91217217/165458659-547ef393-4154-49ad-9ccd-1b9b9e71a372.png)
+![image](https://user-images.githubusercontent.com/91217217/165458769-74d4df33-a23a-48ea-974f-80c2968624c9.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
